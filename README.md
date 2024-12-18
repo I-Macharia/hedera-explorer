@@ -1,17 +1,21 @@
 # Hedera Explorer
 
-Hedera Explorer is a tool for interacting with and exploring the Hedera network. It provides insights into the network's operations, account activities, transactions, and more.
+Hedera Explorer is a comprehensive tool designed to interact with and explore the Hedera network. The project aims to simplify access to the network's operations, enhance transparency, and empower users with insights into account activities, transactions, and more.
 
 ## Features
 
-- **Transaction Tracking:** View details of transactions on the Hedera network.
-- **Account Management:** Retrieve information about Hedera accounts.
-- **Network Insights:** Get statistics and updates about the Hedera network.
-- **Custom Queries:** Run specific queries to interact with the Hedera network.
+- **Learn HTS:** Learn what the Hedera Token Service is and how to create tokens. 
+- ** Token Tracking:** View Tokens on the Hedera network.
+- **Transaction Tracking:** View details of transactions on the Hedera network. [Coming soon]
+- **Account Management:** Retrieve information about Hedera accounts. [Coming soon]
+- **Network Insights:** Get statistics and updates about the Hedera network. [Coming soon]
+- **Custom Queries:** Run specific queries to interact with the Hedera network. [Coming soon]
 
 ## Technologies Used
 
 - **Backend:** [Node.js](https://nodejs.org/) with [Express](https://expressjs.com/)
+  - **Node.js:** Chosen for its asynchronous, event-driven architecture, which ensures scalability and efficient handling of network requests.
+  - **Express:** Simplifies building APIs and integrates seamlessly with the Hedera SDK, making backend development faster and more organized.
 - **Frontend:** [React](https://reactjs.org/)
 - **Hedera SDK:** [Hedera JavaScript SDK](https://hedera.com/)
 
@@ -115,7 +119,7 @@ This project is licensed under the [MIT License](LICENSE).
 For questions or suggestions, reach out to:
 
 - **Maintainer:** [I-Macharia](https://github.com/I-Macharia)
-- **Email:** macharia.gichoya@gmail.com
+- **Email:** Macharia.gichoya@gmail.com
 
 ---
 
