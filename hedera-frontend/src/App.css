@@ -1,0 +1,84 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #5558ea;
+}
+
+/* Token List */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  text-align: center;
+}
+
+li h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+li p {
+  margin: 5px 0;
+  color: #666;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  background: #5558ea;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #5558ea;
+}
+
+/* Token Details */
+.token-details {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  margin: 20px auto;
+  max-width: 1000px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.token-details h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.token-details p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+/* Token Image */
+.token-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin: 10px auto;
+}
