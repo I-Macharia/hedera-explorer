@@ -13,7 +13,6 @@ Hedera Explorer is a tool for interacting with and exploring the Hedera network.
 
 - **Backend:** [Node.js](https://nodejs.org/) with [Express](https://expressjs.com/)
 - **Frontend:** [React](https://reactjs.org/)
-- **Database:** [MongoDB](https://www.mongodb.com/) (or your preferred DB, specify here if different)
 - **Hedera SDK:** [Hedera JavaScript SDK](https://hedera.com/)
 
 ## Getting Started
@@ -24,7 +23,6 @@ Make sure you have the following installed on your machine:
 
 - Node.js (v14 or higher)
 - npm or yarn (latest version)
-- MongoDB (if applicable)
 
 ### Installation
 
@@ -49,7 +47,6 @@ Make sure you have the following installed on your machine:
    HEDERA_NETWORK=testnet
    HEDERA_OPERATOR_ID=your-account-id
    HEDERA_OPERATOR_KEY=your-private-key
-   MONGO_URI=your-mongodb-connection-string
    PORT=3000
    ```
 
